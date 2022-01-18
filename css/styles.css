@@ -1,0 +1,324 @@
+.html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: 2%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.nav-item {
+    margin: 0 20px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.nav-link:hover {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-area {
+    background: url('../images/desktop/image-header.jpg') center;
+    background-size: cover;
+}
+
+
+
+#creativeText {
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 2%;
+}
+
+.down-arrow {
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+#eggImage {
+    background: url(../images/desktop/egg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+
+#cupImage {
+    background: url(../images/desktop/cup.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+#cherryImage {
+    background: url(../images/desktop/cherry.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+#tangerineImage {
+    background: url(../images/desktop/tangerine.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+
+#eggText,
+#cupText {
+    background-color: rgb(230, 227, 227);
+    height: 600px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5%;
+
+
+}
+
+
+.itemHeader {
+    color: hsl(212, 27%, 19%);
+    font: 2.5em 'Fraunces', serif;
+    line-height: 1.2;
+    margin-bottom: 5%;
+}
+
+.itemText {
+    color: hsl(213, 9%, 39%);
+    font: 1.1em 'Barlow', sans-serif;
+}
+
+
+.itemLink {
+    font: 1.2em 'Fraunces', serif;
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%);
+    text-decoration: none;
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+
+}
+
+.bottomTexthead {
+    margin-top: 80%;
+    text-align: center;
+    font: 2.5em 'Fraunces', serif;
+
+}
+
+#graphicDesign,
+#graphicText {
+    color: hsl(167, 40%, 24%);
+}
+
+
+#photography,
+#photoText,
+.profileQuote {
+    color: hsl(198, 62%, 26%);
+}
+
+.bottomSubText {
+    text-align: center;
+    font: 1.1em 'Barlow', sans-serif;
+    padding: 0 25%;
+}
+
+#testimonialHeader {
+    color: hsl(210, 4%, 67%);
+    font: 1.5em 'Fraunces', serif;
+    margin-bottom: 10%;
+
+}
+
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.profilePhoto {
+    margin-bottom: 10%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.profilePosition,
+.profileQuote {
+    font: 1.1em 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+    line-height: 1.5;
+
+}
+
+.profileQuote {
+    color: hsl(198, 62%, 26%);
+}
+
+
+.profileName {
+    font: 1.5em 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    margin: 10%;
+}
+
+.galleryImage {
+    background-position: center;
+    min-height: 500px;
+    text-align: center;
+}
+
+#milk {
+    background: url(../images/desktop/milk.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#orangeBowl {
+    background: url(../images/desktop/orangebowl.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#cone {
+    background: url(../images/desktop/cone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sugar {
+    background: url(../images/desktop/sugar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    background-color: hsl(168, 50%, 66%);
+
+}
+
+.socialmedia {
+    padding-top: 5%;
+    margin: 1%;
+
+}
+
+
+.socialmedia{
+    color: hsl(168, 35%, 30%);
+}
+.socialmedia:hover {
+color: #fff;
+
+}
+
+
+.footerlink {
+    text-decoration: none;
+    font:1.1em 'Barlow', sans-serif;
+    margin: 2%;
+    color:  hsl(168, 35%, 30%);
+}
+
+.footerlink:hover {
+    color: #fff;
+    
+}
+
+@media (max-width:786px) {
+    
+    
+    #eggImage {
+        background: url(../images/mobile/egg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+    
+    
+    #cupImage {
+        background: url(../images/mobile/cup.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+    
+    #cherryImage {
+        background: url(../images/mobile/cherry.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 400px;
+    }
+    
+    #tangerineImage {
+        background: url(../images/mobile/tangerine.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height:400px;
+    }
+
+}
+
+.galleryImage {
+    background-position: center;
+    min-height: 400px;
+    text-align: center;
+}
+
+#milk {
+    background: url(../images/mobile/milk.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#orangeBowl {
+    background: url(../images/mobile/orangebowl.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#cone {
+    background: url(../images/mobile/cone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sugar {
+    background: url(../images/mobile/sugar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bottomTexthead {
+    margin-top: 80%;
+    text-align: center;
+    font: 2em 'Fraunces', serif;
+
+}
+
+.bottomSubText {
+    text-align: center;
+    font: 1em 'Barlow', sans-serif;
+    padding: 3% 15%;
+}
+
+.footer {
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    background-color: hsl(168, 50%, 66%);
+
+}
+
